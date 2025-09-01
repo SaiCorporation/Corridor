@@ -1,9 +1,9 @@
 # DellFw
 Custom Dell Device Firmware Manager for a select models of devices released by Dell.
 
-> **NOTE**: This is a **simulation** project for demos/testing. It does not interact with hardware.
 
-## Simulated Features
+
+## Features
 - Model detection via mocked SMBIOS
 - Firmware catalog and semver handling
 - Integrity checks (SHA-256)
