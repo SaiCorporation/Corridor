@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dellfw"
+version = "0.1.0"
+description = "Custom Dell Device Firmware Manager (simulated)"
+readme = "README.md"
+license = {text = "MIT License"}
+authors = [{name = "Demo Maintainer", email = "demo@example.com"}]
+requires-python = ">=3.9"
+dependencies = ["typing-extensions>=4.8", "rich>=13.7.0"]
+
+[project.scripts]
+dellfw = "dellfw.cli:main"
